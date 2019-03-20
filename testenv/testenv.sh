@@ -395,7 +395,7 @@ print_alias()
     echo "" >&2
 
 
-    echo "alias t='$sudo$scriptname'"
+    echo "alias t='$sudo$scriptname exec'"
 }
 
 xdp_load()
